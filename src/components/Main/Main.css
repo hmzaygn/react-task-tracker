@@ -1,0 +1,42 @@
+.main-div {
+    background-color: rgba(0, 0, 0, 0.7);
+    min-width: 20rem;
+    width: 40%;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 0px 223px 93px rgba(17, 218, 245, 0.9);
+    -moz-box-shadow: 0px 0px 223px 93px rgba(17, 218, 245, 0.9);
+    box-shadow: 0px 0px 223px 93px rgba(17, 218, 245, 0.9);
+}
+
+.main-div h1 {
+    color: rgb(255, 255, 255);
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #5271ff,
+        0 0 82px #5271ff,
+        0 0 92px #5271ff,
+        0 0 102px #5271ff,
+        0 0 151px #5271ff;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.close-btn {
+    width: 12rem;
+    border: none;
+    border-radius: 30px;
+    padding: .5rem;
+    background-color: #002fff;
+    color: white;
+    transition: all .3s;
+}
+
+.close-btn:hover {
+    background-color: #1d46fd;
+}
+
+.close-btn:active {
+    transform: scale(95%);
+}

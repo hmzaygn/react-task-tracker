@@ -1,0 +1,44 @@
+.cards {
+    width: 100%;
+    background-color: rgba(0, 255, 255, 0.6);
+    margin-bottom: .5rem;
+    color: white;
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.cards:hover {
+    transform: scale(102%);
+    /* -webkit-box-shadow: 0px 0px 20px 5px rgba(17, 218, 245, 0.66);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(17, 218, 245, 0.66);
+    box-shadow: 0px 0px 20px 5px rgba(17, 218, 245, 0.66); */
+    box-shadow: white 3px 3px 5px;
+}
+
+.task-par {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.no-line {
+    text-decoration: none !important;
+    position: relative;
+    padding-left: 1rem;
+    padding-top: .5rem;
+}
+
+.line-through {
+    text-decoration: line-through !important;
+    position: relative;
+    padding-left: 1rem;
+    padding-top: .5rem;
+}
+
+.no-line i,
+.line-through i {
+    position: absolute;
+    right: 15px;
+    top: 35%;
+    color: red;
+    font-size: 1.5rem;
+}
